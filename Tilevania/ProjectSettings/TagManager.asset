@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Shootable
   layers:
   - Default
   - TransparentFX
@@ -13,13 +14,13 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Ladder
+  - Player
+  - Background
+  - Enemy
+  - Hazards
+  - Interactables
   - 
   - 
   - 
@@ -42,8 +43,23 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 2098484519
+    uniqueID: 62942935
+    locked: 0
+  - name: Climbing
+    uniqueID: 4255482579
+    locked: 0
+  - name: Hazards
+    uniqueID: 2798653923
+    locked: 0
+  - name: Interactables
+    uniqueID: 537346499
+    locked: 0
+  - name: Enemy
+    uniqueID: 299755961
+    locked: 0
+  - name: Player
+    uniqueID: 1652945183
     locked: 0
   - name: Foreground
-    uniqueID: 2372918387
+    uniqueID: 2048641875
     locked: 0
